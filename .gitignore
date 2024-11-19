@@ -1,0 +1,38 @@
+# 用户请求生成.gitignore文件
+
+# Python相关
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Django相关
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.mo
+*.env
+*.venv
+*.envrc
+*.DS_Store
+
+# IDE相关
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 操作系统相关
+Thumbs.db
+.DS_Store
+venv
